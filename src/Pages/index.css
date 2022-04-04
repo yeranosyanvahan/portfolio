@@ -1,0 +1,11 @@
+.work {
+  display: flex;
+  width: 50vw;
+  font-size: 1.2rem;
+}
+.work .text > h1 {
+  text-align: center;
+}
+.gapped {
+  gap:1rem;
+}
