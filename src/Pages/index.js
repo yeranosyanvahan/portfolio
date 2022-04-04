@@ -1,4 +1,3 @@
-import {lazy} from 'react';
 import './index.css'
 
 import About from "./About.js"

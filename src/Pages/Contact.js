@@ -1,7 +1,4 @@
 import React from 'react';
-import { useEffect } from 'react';
-
-
 
 class Contact extends React.Component {
   componentDidMount () {
@@ -11,32 +8,31 @@ class Contact extends React.Component {
       document.body.appendChild(script);
   }
   render() {
-    return     <div className='content centered gapped'>
-          <div style={{"display":"flex", "gap":"4rem"}}>
-            <form className="contact" target="_self" action="https://formsubmit.co/formsubmit@saghatelyaninstitute.org" method="POST">
-              <h2 className="wide">Contact Form</h2>
-              <input type="hidden" name="_next" value="https://www.yeranosyanvahan.com/contact" />
+    return     <main id='contact' className='content gapped'>
+            <h1>Contact Form</h1>
+            <h1>Contact Info</h1>
+            <form style={{"grid-row":"2"}} className="contact" target="_self" action="https://formsubmit.co/formsubmit@saghatelyaninstitute.org" method="POST">
+              <input type="hidden" name="_next" value="https://www.saghatelyaninstitute.org/thanks-for-contacting-us" />
               <input type="text" name="_bot" style={{"display":"none"}} />
               <input type="hidden" name="_captcha" value="false" />
-              <label for="fullname">Full Name</label>
-              <label for="email">Email Address</label>
+              <label htmlFor="fullname">Full Name</label>
+              <label htmlFor="email">Email Address</label>
               <input type="text" name="fullname" required="" />
               <input type="email" name="email" required="" />
-              <label for="messaage" class="wide">Your message</label>
-              <textarea name="message" class="wide" rows="10" required=""></textarea><button type="submit" class="wide">Submit</button>
+              <label htmlFor="messaage" className="wide">Your message</label>
+              <textarea name="message" className="wide" rows="10" required=""></textarea><button type="submit" className="wide">Submit</button>
             </form>
-
-            <div>
-              <h1>Contact Info</h1>
-              <div style={{"margin-top":"4rem"}}>Address</div>
-              <div>1401 Getapnya 16, Martuni, Armenia</div>
-              <div style={{"margin-top":"3rem"}}>Telephone</div>
-              <div>+(374)98-941-610</div>
+            <div id="contact_info">
+              <div>Address:</div>
+              <div>1401 Getapnya 16, Martuni, Armenia</div> <br/>
+              <div>Telephone:</div>
+              <div>+(374)98-941-610</div><br/>
+              <div>E-mail:</div>
+              <div><a className="link_decoration" href="mailto:vahan@yeranosyanvahan.com">vahan@yeranosyanvahan.com</a></div><br/>
             </div>
-          </div>
 
-        <div id="mapid"  style={{"position": "relative","height": "700px","width": "1200px"}} ></div>
-        </div>
+        <div id="mapid"></div>
+        </main>
   }
 }
 

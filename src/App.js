@@ -11,6 +11,7 @@ import {BrowserRouter,  Routes,  Route} from "react-router-dom";
 function App() {
   return (
       <BrowserRouter>
+      <div id="background" style={{'backgroundImage': 'url("./Images/background.jpg")'}}></div>
         <Nav />
         <Routes>
           <Route path="work" element={<Work />} />
