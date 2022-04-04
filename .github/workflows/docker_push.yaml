@@ -11,11 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - name: Building website
+      run: docker build . -t yeranosyanvahan/yeranosyanvahan.com:latest
     - name: Docker Login
       env:
         DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
       run: docker login -u yeranosyanvahan -p $DOCKER_PASSWORD
-    - name: Building website
-      run: docker build . -t yeranosyanvahan/personal-website:latest
     - name: Pushing to Docker Registry
-      run: docker push yeranosyanvahan/personal-website:latest
+      run: docker push yeranosyanvahan/yeranosyanvahan.com:latest
