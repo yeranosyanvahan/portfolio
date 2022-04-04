@@ -1,0 +1,21 @@
+name: Push Docker to Dockerhub
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Docker Login
+      env:
+        DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
+      run: docker login -u yeranosyanvahan -p $DOCKER_PASSWORD
+    - name: Building website
+      run: docker build . -t yeranosyanvahan/personal-website:latest
+    - name: Pushing to Docker Registry
+      run: docker push yeranosyanvahan/personal-website:latest
