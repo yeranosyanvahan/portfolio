@@ -15,7 +15,7 @@ class Contact extends React.Component {
           <div style={{"display":"flex", "gap":"4rem"}}>
             <form className="contact" target="_self" action="https://formsubmit.co/formsubmit@saghatelyaninstitute.org" method="POST">
               <h2 className="wide">Contact Form</h2>
-              <input type="hidden" name="_next" value="https://www.saghatelyaninstitute.org/thanks-for-contacting-us" />
+              <input type="hidden" name="_next" value="https://www.yeranosyanvahan.com/contact" />
               <input type="text" name="_bot" style={{"display":"none"}} />
               <input type="hidden" name="_captcha" value="false" />
               <label for="fullname">Full Name</label>
