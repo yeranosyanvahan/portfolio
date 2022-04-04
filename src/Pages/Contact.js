@@ -12,7 +12,7 @@ class Contact extends React.Component {
             <h1>Contact Form</h1>
             <h1>Contact Info</h1>
             <form style={{"grid-row":"2"}} className="contact" target="_self" action="https://formsubmit.co/formsubmit@saghatelyaninstitute.org" method="POST">
-              <input type="hidden" name="_next" value="https://www.saghatelyaninstitute.org/thanks-for-contacting-us" />
+              <input type="hidden" name="_next" value="https://www.yeranosyanvahan.com/contact" />
               <input type="text" name="_bot" style={{"display":"none"}} />
               <input type="hidden" name="_captcha" value="false" />
               <label htmlFor="fullname">Full Name</label>
