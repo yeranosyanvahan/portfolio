@@ -1,0 +1,23 @@
+/* src/styles/certificates.css */
+.certificates-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust minmax for your preferred size */
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .certificate {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .certificate:hover {
+    transform: scale(1.05);
+  }
+  
+  .certificate img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  

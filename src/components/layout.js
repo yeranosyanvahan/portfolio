@@ -1,5 +1,14 @@
 import React from 'react';
+import Navigation from './navigation';
+import Footer from './footer';
+import '../styles/main.css'; // Assuming you're using CSS Modules or similar
 
-export default function Layout({ children }) {
-  return <div>{children}</div>;
-}
+const Layout = ({ children }) => (
+  <>
+    <Navigation />
+    <main>{children}</main>
+    <Footer />
+  </>
+);
+
+export default Layout;
