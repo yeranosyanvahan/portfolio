@@ -1,18 +1,26 @@
-FROM node:16.4 as react
+# Use the official Node.js 16 image as a parent image
+FROM node:16
+
+# Set the working directory
 WORKDIR /app
-ADD ./package*.json ./
-RUN npm install -y
-COPY ./ ./
-RUN npm run build
 
-FROM httpd:2.4
-EXPOSE 80
+# Add `/app/node_modules/.bin` to $PATH
+ENV PATH /app/node_modules/.bin:$PATH
 
-RUN sed -i \
-        -e 's/ServerAdmin you@example.com/ServerAdmin admin@yeranosyanvahan.com/g' \
-        -e 's/ServerName www.example.com:80/ServerName www.yeranosyanvahan.com/g' \
-        conf/httpd.conf
+# Install Gatsby CLI globally
+RUN npm install -g gatsby-cli
 
-RUN echo "ErrorDocument 404 /index.html" >> conf/httpd.conf
+# Copy package.json and package-lock.json
+COPY package*.json ./
 
-COPY --from=react /app/build /usr/local/apache2/htdocs/
+# Install project dependencies
+RUN npm install
+
+# Copy the Gatsby project files into the container at /app
+COPY . ./
+
+# Expose the port Gatsby will run on
+EXPOSE 8000
+
+# Run Gatsby
+CMD ["gatsby", "develop", "-H", "0.0.0.0"]
