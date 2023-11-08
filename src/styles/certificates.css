@@ -1,23 +1,28 @@
-/* src/styles/certificates.css */
 .certificates-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust minmax for your preferred size */
-    gap: 1rem;
-    padding: 1rem;
-  }
-  
-  .certificate {
-    cursor: pointer;
-    transition: transform 0.3s ease;
-  }
-  
-  .certificate:hover {
-    transform: scale(1.05);
-  }
-  
-  .certificate img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.certificate {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.certificate img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.certificate-details {
+  text-align: left;
+}
+
+.certificate-details .date {
+  font-style: italic;
+  color: #666;
+}

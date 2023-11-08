@@ -1,31 +1,42 @@
 import React, { useState } from 'react';
 import Layout from '../components/layout';
-import '../styles/certificates.css'; // Path to your certificates page CSS
+import certificateData from '../data/info.json';
+import '../styles/certificates.css';
 
-export default function Certificates() {
-  // Assuming each certificate has an ID that corresponds to its order in the list
-  const [language, setLanguage] = useState('en'); // Default language
+const Certificates = () => {
+  const [selectedLang, setSelectedLang] = useState({}); // A state to keep track of selected languages for each certificate
 
-  // Toggle between 'en' and 'am'
+  // Function to toggle the certificate language for a specific certificate
   const toggleLanguage = (id) => {
-    setLanguage(language === 'en' ? 'am' : 'en');
+    setSelectedLang(prevLang => ({
+      ...prevLang,
+      [id]: prevLang[id] === 'en' ? 'am' : 'en' // Toggle between 'en' and 'am'
+    }));
   };
-
-  // An array of certificate IDs for demonstration
-  const certificateIDs = Array.from({ length: 33 }, (_, i) => i + 1);
 
   return (
     <Layout>
       <div className="certificates-container">
-        {certificateIDs.map((id) => (
-          <div key={id} className="certificate" onClick={() => toggleLanguage(id)}>
-           <img src={`/certificates/certificate_${id}_${language}.jpg`} alt={`Certificate ${id}`} />
-          </div>
-        ))}
+        {certificateData.map((details) => {
+          const id = details.id; // Use the 'id' from the details directly
+          const defaultLanguage = details.language; // Use the 'language' field from the JSON to set the default language
+          const language = selectedLang[id] || defaultLanguage; // Use the selected language if available, otherwise the default
+          const certificateInfo = details.data[language]; // Access the data for the current language
+          const imagePath = `/certificates/${details.file_name}`; // Use the 'file_name' directly from the details
+          return (
+            <div key={id} className="certificate" onClick={() => toggleLanguage(id)}>
+              <img src={imagePath} alt={`Certificate ${id}`} />
+              <div className="certificate-details">
+                <h3>{certificateInfo.name}</h3>
+                <p>{certificateInfo.grant}</p>
+                <p className="date">{details.issue_date}</p> {/* Use issue_date */}
+              </div>
+            </div>
+          );
+        })}
       </div>
     </Layout>
   );
-}
+};
 
-<img src={`/certificates/certificate_${id}_${language}.jpg`} alt={`Certificate ${id}`} />
-
+export default Certificates;
