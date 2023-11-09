@@ -1,0 +1,14 @@
+.card {
+  max-width: 100%;
+  height: auto;
+  background: #17141d; 
+  box-shadow: -2rem 0 5rem #000;
+  transition: .2s;
+  position: relative;
+  cursor: pointer;
+}
+
+.card img {
+  max-width: 100%;
+  display: block;
+}

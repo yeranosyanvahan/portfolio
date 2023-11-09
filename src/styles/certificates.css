@@ -16,104 +16,13 @@ body {
     align-items: center;
     row-gap: 1rem;
   }
-  
-  .card {
-    max-width: 100%;
-    height: auto;
-    background: #17141d; 
-    box-shadow: -2rem 0 5rem #000;
-    transition: .2s;
-    position: relative;
-    cursor: pointer;
-  }
-  
-  .card img {
-    max-width: 100%;
-    display: block;
-  }
-  
+    
   .card-details {
     padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: white;
-  }
-  
-  /* Modal styles */
-  .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1000;
-    outline: none;
-  }
-  
-  .modal-content {
-    position: relative;
-    background: #17141d;
-    padding: 20px;
-    border-radius: 10px;
-    display: grid;
-  }
-  
-  .modal-content.landscape {
-    grid-template-rows: auto 1fr;
-  }
-  
-  .modal-content.portrait {
-    grid-template-columns: 1fr 1fr;
-  }
-  
-  .certificate-display.landscape img {
-    grid-row: 1 / span 2;
-    max-width: 100%;
-  }
-  
-  .certificate-display.portrait img {
-    grid-column: 1;
-    max-width: 100%;
-  }
-  
-  .certificate-details.landscape {
-    grid-row: 2;
-  }
-  
-  .certificate-details.portrait {
-    grid-column: 2;
-  }
-  
-  .close-button {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    font-size: 2rem;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  .navigation-buttons {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    transform: translateY(-50%);
-  }
-  
-  .navigation-buttons button {
-    cursor: pointer;
-    padding: 0.5rem 1rem;
-    background-color: #333;
-    color: white;
-    border: none;
-    font-size: 1.5rem;
   }
   
   /* Responsive design for mobile devices */
