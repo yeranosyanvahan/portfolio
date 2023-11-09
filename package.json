@@ -6,12 +6,13 @@
   "author": "Vahan Yeranosyan <vahan@yeranosyanvahan.com>",
   "dependencies": {
     "gatsby": "^4.0.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
     "gatsby-plugin-image": "^2.0.0",
     "gatsby-plugin-sharp": "^4.0.0",
     "gatsby-source-filesystem": "^4.0.0",
-    "gatsby-transformer-sharp": "^4.0.0"
+    "gatsby-transformer-sharp": "^4.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "swiper": "^11.0.3"
   },
   "devDependencies": {
     "prettier": "2.5.1"

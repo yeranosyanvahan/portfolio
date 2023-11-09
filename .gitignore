@@ -3,6 +3,8 @@ node_modules/
 .cache/
 public/
 
+*chatgpt*
+
 # Optional eslint cache
 .eslintcache
 
