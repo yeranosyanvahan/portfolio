@@ -1,26 +1,13 @@
-# Use the official Node.js 16 image as a parent image
-FROM node:16
-
-# Set the working directory
+# Build stage
+FROM node:16 AS build-stage
 WORKDIR /app
-
-# Add `/app/node_modules/.bin` to $PATH
-ENV PATH /app/node_modules/.bin:$PATH
-
-# Install Gatsby CLI globally
-RUN npm install -g gatsby-cli
-
-# Copy package.json and package-lock.json
 COPY package*.json ./
-
-# Install project dependencies
 RUN npm install
+COPY . .
+RUN npm run build
 
-# Copy the Gatsby project files into the container at /app
-COPY . ./
-
-# Expose the port Gatsby will run on
-EXPOSE 8000
-
-# Run Gatsby
-CMD ["gatsby", "develop", "-H", "0.0.0.0"]
+# Production stage
+FROM nginx:stable-alpine as production-stage
+COPY --from=build-stage /app/public /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
