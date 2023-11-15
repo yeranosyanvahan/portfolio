@@ -1,4 +1,4 @@
-FROM node:16.4 as react
+FROM node:20.9 as react
 WORKDIR /app
 ADD ./package*.json ./
 RUN npm install -y
