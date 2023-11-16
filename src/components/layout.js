@@ -1,14 +1,27 @@
 import React from 'react';
-import Navigation from './navigation';
-import Footer from './footer';
-import '../styles/main.css'; // Assuming you're using CSS Modules or similar
+import { Link } from 'gatsby';
+import './Layout.css';
 
-const Layout = ({ children }) => (
-  <>
-    <Navigation />
-    <main>{children}</main>
-    <Footer />
-  </>
-);
-
-export default Layout;
+export default function Layout({children}) {
+  return <>
+  <header>
+    <div>
+      <img src="images/logo50.png"/>
+    </div>
+    <nav>
+      <ul>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/projects">Projects</Link></li>
+        <li><Link to="/awards">Awards</Link></li>
+        <li><Link to="/about">About</Link></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+  {children}
+  </main>
+  <footer>
+      © {new Date().getFullYear()} Vahan Yeranosyan - All Rights Reserved
+  </footer>
+  </>;
+}

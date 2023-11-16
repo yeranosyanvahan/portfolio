@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/_navigation.css';
 
 const ModalNavigation = ({ prevCertificate, nextCertificate }) => {
   return (

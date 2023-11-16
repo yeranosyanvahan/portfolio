@@ -1,0 +1,50 @@
+
+/* Layout.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  margin: 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 10px 20px;
+}
+
+header > div {
+  /* Logo container */
+  flex-grow: 1;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

@@ -1,12 +1,5 @@
 /* certificates.css */
 
-body {
-    margin: 0;
-    background-color: #17141d;
-    color: white;
-    font-family: 'DM Mono', monospace;
-  }
-  
   .certificates-container {
     display: grid;
     grid-template-columns: repeat(11, 1fr);
