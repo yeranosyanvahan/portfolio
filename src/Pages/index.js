@@ -1,12 +1,11 @@
-import './index.css'
+// src/pages/index.js
+import React from 'react';
+import Layout from '../components/layout';
 
-import About from "./About.js"
-import Contact from "./Contact.js"
-import FAQ from "./FAQ.js"
-import Work from "./Work.js"
-import Home from "./Home.js"
-
-// const compoenent    = lazy(() => import('./compoenent.js'))
-
-
-export {About, Contact, FAQ, Work, Home};
+export default function Home() {
+  return (
+    <Layout>
+      <div>Welcome to my personal website!</div>
+    </Layout>
+  );
+}

@@ -1,0 +1,22 @@
+.card {
+  width: calc(100% + 2rem);
+  height: 100%;
+  background: #17141d; 
+  box-shadow: -2rem 0 5rem #000;
+  transition: .2s;
+  position: relative;
+  cursor: pointer;
+}
+
+.card img {
+  position:relative;
+  max-width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.card img:hover {
+  transition: .2s;
+  transform: scale(1.7); 
+  z-index: 1000;
+}

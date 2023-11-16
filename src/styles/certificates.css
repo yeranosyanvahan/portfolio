@@ -1,0 +1,53 @@
+/* certificates.css */
+
+body {
+    margin: 0;
+    background-color: #17141d;
+    color: white;
+    font-family: 'DM Mono', monospace;
+  }
+  
+  .certificates-container {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    padding: 3rem;
+    padding-right: 5rem;
+    justify-items: center;
+    align-items: center;
+    row-gap: 1rem;
+  }
+    
+  .card-details {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+  }
+  
+  /* Responsive design for mobile devices */
+  @media (max-width: 600px) {
+    .certificates-container {
+      grid-template-columns: 1fr;
+      padding: 1rem;
+    }
+  
+    .modal-content {
+      grid-template-columns: 1fr; /* stack image and details for mobile */
+      width: 90%;
+      box-sizing: border-box;
+    }
+  
+    .certificate-display img,
+    .certificate-details {
+      width: 100%; /* full width for mobile */
+      padding: 0;
+    }
+  
+    .navigation-buttons {
+      bottom: 10px;
+      top: unset;
+      transform: translateY(0);
+    }
+  }
+  

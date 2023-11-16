@@ -1,41 +1,27 @@
 {
-  "name": "www.yeranosyanvahan.info",
-  "version": "0.1.0",
+  "name": "vahan-yeranosyan-portfolio",
   "private": true,
+  "version": "1.0.0",
+  "description": "Personal web page for Vahan Yeranosyan",
+  "author": "Vahan Yeranosyan <vahan@yeranosyanvahan.com>",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "jquery": "^3.7.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.18.0",
-    "react-router-hash-link": "^2.4.3",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "gatsby": "^4.0.0",
+    "gatsby-plugin-image": "^2.0.0",
+    "gatsby-plugin-sharp": "^4.0.0",
+    "gatsby-source-filesystem": "^4.0.0",
+    "gatsby-transformer-sharp": "^4.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "swiper": "^11.0.3"
+  },
+  "devDependencies": {
+    "prettier": "2.5.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
   }
 }
