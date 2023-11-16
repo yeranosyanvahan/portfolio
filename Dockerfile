@@ -1,5 +1,5 @@
 # Build stage
-FROM node:16 AS build-stage
+FROM node:20.9 as react
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
