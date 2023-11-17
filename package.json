@@ -6,6 +6,7 @@
   "author": "Vahan Yeranosyan <vahan@yeranosyanvahan.com>",
   "dependencies": {
     "gatsby": "^4.0.0",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-image": "^2.0.0",
     "gatsby-plugin-sharp": "^4.0.0",
     "gatsby-source-filesystem": "^4.0.0",

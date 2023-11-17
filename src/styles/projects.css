@@ -1,0 +1,26 @@
+/* Base CSS - this will apply when no other media query condition is met */
+.content {
+    width: 100%;
+    margin: 0 auto;
+    /* Additional styles (padding, etc.) can be added here */
+}
+
+/* CSS for desktop screens */
+@media screen and (min-width: 768px) { /* Adjust 768px as needed for your breakpoint */
+    .content {
+        width: 50%;
+        /* Additional desktop-specific styles can be added here */
+    }
+}
+
+/* Additional styles for your projects page */
+/* You can add other styling here as needed */
+
+/* Example: Style for the gallery images */
+.gallery img {
+    width: 100%; /* Make images responsive */
+    height: auto;
+    display: block; /* Align images properly */
+    margin: 0 auto; /* Center images */
+    /* Other styles for your gallery images */
+}
