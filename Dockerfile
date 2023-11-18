@@ -15,4 +15,4 @@ RUN sed -i \
 
 RUN echo "ErrorDocument 404 /index.html" >> conf/httpd.conf
 
-COPY --from=react /app/build /usr/local/apache2/htdocs/
+COPY --from=react /app/public /usr/local/apache2/htdocs/
