@@ -1,18 +1,15 @@
-FROM node:20 as react
+# Build stage
+FROM node:20.9 as builder
 WORKDIR /app
-ADD ./package*.json ./
-RUN npm install -y
-COPY ./ ./
+COPY package*.json ./
+RUN npm install
+COPY . .
 RUN npm run build
 
-FROM httpd:2.4
+# Production stage
+FROM nginx:stable-alpine as production-stage
+WORKDIR /usr/share/nginx/html
+RUN rm -rf ./*
+COPY --from=builder /app/public .
 EXPOSE 80
-
-RUN sed -i \
-        -e 's/ServerAdmin you@example.com/ServerAdmin admin@yeranosyanvahan.com/g' \
-        -e 's/ServerName www.example.com:80/ServerName www.yeranosyanvahan.com/g' \
-        conf/httpd.conf
-
-RUN echo "ErrorDocument 404 /index.html" >> conf/httpd.conf
-
-COPY --from=react /app/public /usr/local/apache2/htdocs/html
+CMD ["nginx", "-g", "daemon off;"]
