@@ -1,4 +1,4 @@
-import Layout from '../components/layout';
+import Layout from '../components/Layout';
 import '../styles/projects.css'
 import img from '../data/project_img.json';
 import React, { Component } from 'react';
