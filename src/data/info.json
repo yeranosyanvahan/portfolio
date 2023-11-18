@@ -129,17 +129,33 @@
   },
   {
     "issue_year":"2023",
-    "file_name": "certificate_33_am.jpg",
+    "file_name": "certificate_38_en.jpg",
     "language": "am",
     "color": "white",
-    "id": "33",
-    "orientation": "portrait",
+    "id": "38",
+    "orientation": "landscape",
     "data": {
       "en": {
-        "description": "Granted by Moscow Engineering Physics Institute ",
-        "grant": "Vahan Yeranosyan is a Winner in a final round of physico-mathemetic olympiad of schoolchildren 'Rosatom'  ",
-        "name": "physicо-mathematics branch Olympiad of schoolchildren 'Rosatom' ",
-        "certificate": "Winner Certificate"
+        "description": "",
+        "grant": "",
+        "name": "",
+        "certificate": ""
+      }
+    }
+  },
+  {
+    "issue_year":"2023",
+    "file_name": "certificate_39_en.jpg",
+    "language": "am",
+    "color": "white",
+    "id": "38",
+    "orientation": "landscape",
+    "data": {
+      "en": {
+        "description": "",
+        "grant": "",
+        "name": "",
+        "certificate": ""
       }
     }
   },
@@ -186,6 +202,22 @@
       "en": {
         "description": "Granted by Moscow Engineering Physics Institute ",
         "grant": "Vahan Yeranosyan is a second-class prize-winner in a final round of physico-mathemetic olympiad of schoolchildren 'Rosatom'  ",
+        "name": "physicо-mathematics branch Olympiad of schoolchildren 'Rosatom' ",
+        "certificate": "Winner Certificate"
+      }
+    }
+  },
+  {
+    "issue_year":"2023",
+    "file_name": "certificate_33_am.jpg",
+    "language": "am",
+    "color": "white",
+    "id": "33",
+    "orientation": "portrait",
+    "data": {
+      "en": {
+        "description": "Granted by Moscow Engineering Physics Institute ",
+        "grant": "Vahan Yeranosyan is a Winner in a final round of physico-mathemetic olympiad of schoolchildren 'Rosatom'  ",
         "name": "physicо-mathematics branch Olympiad of schoolchildren 'Rosatom' ",
         "certificate": "Winner Certificate"
       }
