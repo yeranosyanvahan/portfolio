@@ -19,8 +19,7 @@ const photos = certinfo.map(cert => ({
     ...cert,
     src: `/certificates/${cert['file_name']}`,
     width: cert['orientation'] === 'landscape' ? 1287 : 1000,
-    height: cert['orientation'] === 'landscape' ? 1000 : 1462,
-    imageProps: { style: "class: ", className: "hello" }
+    height: cert['orientation'] === 'landscape' ? 1000 : 1462
 }));
 
 
