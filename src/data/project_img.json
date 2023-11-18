@@ -1,86 +1,86 @@
 [
     {
-        "src": "Images/Fractals/yellow/4.png",
+        "src": "images/Fractals/yellow/4.png",
         "height": 1200,
         "width": 1000
     },{
-        "src": "Images/Fractals/yellow/5.png",
+        "src": "images/Fractals/yellow/5.png",
         "height": 1200,
         "width": 1000
     },{
-        "src": "Images/Fractals/yellow/6.png",
+        "src": "images/Fractals/yellow/6.png",
         "height": 1200,
         "width": 1000
     },{
-        "src": "Images/Fractals/blue/2.png",
+        "src": "images/Fractals/blue/2.png",
         "height": 1200,
         "width": 1000
     },{
-        "src": "Images/Fractals/blue/3.png",
+        "src": "images/Fractals/blue/3.png",
         "height": 1200,
         "width": 1000
     },{
-        "src": "Images/Fractals/blue/4.png",
+        "src": "images/Fractals/blue/4.png",
         "height": 1200,
         "width": 1000
     },{
-        "src": "Images/Fractals/yellow/1.png",
+        "src": "images/Fractals/yellow/1.png",
         "height": 1200,
         "width": 1000
     },{
-        "src": "Images/Fractals/yellow/2.png",
+        "src": "images/Fractals/yellow/2.png",
         "height": 1200,
         "width": 1000
     },{
-        "src": "Images/Fractals/yellow/3.png",
+        "src": "images/Fractals/yellow/3.png",
         "height": 1200,
         "width": 1000
     },{
-        "src": "Images/Fractals/green/1.png",
+        "src": "images/Fractals/green/1.png",
         "height": 1200,
         "width": 1000
     },{
-        "src": "Images/Fractals/green/2.png",
+        "src": "images/Fractals/green/2.png",
         "height": 1200,
         "width": 1000
     },{
-        "src": "Images/Fractals/green/3.png",
+        "src": "images/Fractals/green/3.png",
         "height": 1200,
         "width": 1000
     },{
-        "src": "Images/Fractals/green/4.png",
+        "src": "images/Fractals/green/4.png",
         "height": 1200,
         "width": 1000
     },{
-        "src": "Images/Fractals/green/5.png",
+        "src": "images/Fractals/green/5.png",
         "height": 1200,
         "width": 1000
     },{
-        "src": "Images/Fractals/green/6.png",
+        "src": "images/Fractals/green/6.png",
         "height": 1200,
         "width": 1000
     },{
-        "src": "Images/Fractals/black_white/1.png",
+        "src": "images/Fractals/black_white/1.png",
         "height": 1200,
         "width": 1000
     },{
-        "src": "Images/Fractals/black_white/2.png",
+        "src": "images/Fractals/black_white/2.png",
         "height": 1200,
         "width": 1000
     },{
-        "src": "Images/Fractals/black_white/3.png",
+        "src": "images/Fractals/black_white/3.png",
         "height": 1200,
         "width": 1000
     },{
-        "src": "Images/Fractals/other/1.png",
+        "src": "images/Fractals/other/1.png",
         "height": 1200,
         "width": 1000
     },{
-        "src": "Images/Fractals/other/2.png",
+        "src": "images/Fractals/other/2.png",
         "height": 1200,
         "width": 1000
     },{
-        "src": "Images/Fractals/other/3.png",
+        "src": "images/Fractals/other/3.png",
         "height": 1200,
         "width": 1000
     }
