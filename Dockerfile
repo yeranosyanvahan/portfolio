@@ -1,4 +1,4 @@
-FROM node:16.4 as react
+FROM node:20 as react
 WORKDIR /app
 ADD ./package*.json ./
 RUN npm install -y
@@ -15,4 +15,4 @@ RUN sed -i \
 
 RUN echo "ErrorDocument 404 /index.html" >> conf/httpd.conf
 
-COPY --from=react /app/public /usr/local/apache2/htdocs/
+COPY --from=react /app/public /usr/local/apache2/htdocs/html
