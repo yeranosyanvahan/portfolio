@@ -7,7 +7,7 @@ export default class Contact extends React.Component {
     return (
         <Layout><div className='content centered gapped'>
             <div className='contactpage'>
-              <form className="contact" target="_self" action="https://formsubmit.co/formsubmit@saghatelyaninstitute.org" method="POST">
+              <form className="contact" target="_self" action="https://formsubmit.co/vahan@yeranosyanvahan.com" method="POST">
                 <h2 className="wide">Contact Form</h2>
                 <input type="hidden" name="_next" value="https://www.yeranosyanvahan.com/contact" />
                 <input type="text" name="_bot" style={{"display":"none"}} />
