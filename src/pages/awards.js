@@ -18,7 +18,7 @@ import "yet-another-react-lightbox/styles.css";
 
 const photos = certinfo.map(cert => ({
   ...cert,
-  src: `/certificates/small_${cert.file_name}`,
+  src: `/certificates/${cert.file_name}`,
   width: cert['orientation'] === 'landscape' ? 1287 : 1000,
   height: cert['orientation'] === 'landscape' ? 1000 : 1462,
   srcSet: [
