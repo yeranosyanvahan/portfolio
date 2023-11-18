@@ -20,7 +20,7 @@
 
   
   /* Responsive design for mobile devices */
-  @media (max-width: 600px) {
+   (max-width: 600px) {
     .certificates-container {
       grid-template-columns: 1fr;
       padding: 1rem;

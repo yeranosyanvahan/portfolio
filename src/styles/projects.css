@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
     .content {
         width: 50%;
         margin-left: 25%;
@@ -16,8 +16,12 @@ h2, h1 {
     margin-bottom: 20px; /* Space below the h2 elements */
 }
 
+@media screen and (min-width: 600px) {
+    p {
+        text-indent: 40px;
+    }
+}
 p {
-    text-indent: 40px;
     width: 80%;
     margin: 20px auto; /* Increased margin for top and bottom */
     text-align: justify;
@@ -49,11 +53,16 @@ p {
     margin-top: 3rem;
     
 }
+@media screen and (min-width: 600px) {
+    .text {
+        font-size: 1.5em;
+    }
+}
+
 .text {
     --footer-height: 5rem;
     color: black;
     font-family: Tahoma;
-    font-size: 1.5em;
     grid-column: 1/4;
     text-align: center;
 }

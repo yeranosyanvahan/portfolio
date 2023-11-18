@@ -1,6 +1,21 @@
+.contactpage{
+  display: flex;
+  gap: 4rem;
+  flex-direction: column;
+}
+  
+@media screen and (min-width: 600px) {
+  .content {
+    padding: 2rem 1rem;  
+  }
+  .contactpage{
+    flex-direction: row;
+    
+  }
+     
+}
 
 .content {
-  padding: 2rem 1rem;
   display: grid;
   justify-content: center;
 }
