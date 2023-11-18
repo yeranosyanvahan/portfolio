@@ -17,6 +17,7 @@
     justify-content: center;
     color: white;
   }
+
   
   /* Responsive design for mobile devices */
   @media (max-width: 600px) {

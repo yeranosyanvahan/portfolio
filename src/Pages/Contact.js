@@ -28,6 +28,8 @@ export default class Contact extends React.Component {
                 <div>vahan@yeranosyanvahan.com</div>
                 <div style={{"margin-top":"3rem"}}>Links:</div>
                 <a href="https://github.com/yeranosyanvahan/">GitHub</a>
+
+                <a style={{"margin-left":"0.5rem"}} href="https://www.linkedin.com/in/vahan-yeranosyan-712728204/">Linkedin</a>
               </div>
             </div>
           </div>

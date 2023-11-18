@@ -1,0 +1,6 @@
+.react-photo-album img:hover {
+    transition: .2s;
+    transform: scale(1.09); 
+    z-index: 1000;
+  }
+  

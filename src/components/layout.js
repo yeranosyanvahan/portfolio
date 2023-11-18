@@ -7,7 +7,7 @@ export default function Layout({ children }) {
     <>
       <header>
         <div>
-          <img src="images/logo50.png" alt="Logo"/>
+        <Link to="/"><img src="images/necklace_fractal.png" style={{filter: "blur(0.7px) contrast(2.5)"}} alt="Logo" height={"50px"}/></Link>
         </div>
         <nav>
           <ul>

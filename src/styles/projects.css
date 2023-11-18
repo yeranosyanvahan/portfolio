@@ -1,26 +1,59 @@
-/* Base CSS - this will apply when no other media query condition is met */
 .content {
     width: 100%;
     margin: 0 auto;
-    /* Additional styles (padding, etc.) can be added here */
 }
 
-/* CSS for desktop screens */
-@media screen and (min-width: 768px) { /* Adjust 768px as needed for your breakpoint */
+@media screen and (min-width: 768px) {
     .content {
         width: 50%;
-        /* Additional desktop-specific styles can be added here */
+        margin-left: 25%;
     }
 }
 
-/* Additional styles for your projects page */
-/* You can add other styling here as needed */
+h2, h1 {
+    text-align: center;
+    margin-top: 20px; /* Space above the h2 elements */
+    margin-bottom: 20px; /* Space below the h2 elements */
+}
 
-/* Example: Style for the gallery images */
+p {
+    text-indent: 40px;
+    width: 80%;
+    margin: 20px auto; /* Increased margin for top and bottom */
+    text-align: justify;
+}
+
 .gallery img {
-    width: 100%; /* Make images responsive */
+    width: 100%;
     height: auto;
-    display: block; /* Align images properly */
-    margin: 0 auto; /* Center images */
-    /* Other styles for your gallery images */
+    display: block;
+    margin: 20px auto; /* Margin around images */
+    cursor: pointer;
+}
+.gallery img:hover {
+    transition: .2s;
+    transform: scale(1.1); 
+    z-index: 1000;
+}
+
+.gallery {
+    --footer-height: 5rem;
+    color: #fff;
+    font-family: Tahoma;
+    font-size: 1.2rem;
+    grid-gap: 1.5rem;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    margin-top: 3rem;
+    
+}
+.text {
+    --footer-height: 5rem;
+    color: black;
+    font-family: Tahoma;
+    font-size: 1.5em;
+    grid-column: 1/4;
+    text-align: center;
 }

@@ -17,6 +17,54 @@
   },
   {
     "issue_year":"2023",
+    "file_name": "certificate_34_en.png",
+    "language": "am",
+    "color": "white",
+    "id": "37",
+    "orientation": "landscape",
+    "data": {
+      "en": {
+        "description": "",
+        "grant": "",
+        "name": "",
+        "certificate": ""
+      }
+    }
+  },
+  {
+    "issue_year":"2023",
+    "file_name": "certificate_35_en.png",
+    "language": "am",
+    "color": "white",
+    "id": "35",
+    "orientation": "landscape",
+    "data": {
+      "en": {
+        "description": "",
+        "grant": "",
+        "name": "",
+        "certificate": ""
+      }
+    }
+  },
+  {
+    "issue_year":"2023",
+    "file_name": "certificate_36_en.jpg",
+    "language": "am",
+    "color": "white",
+    "id": "36",
+    "orientation": "landscape",
+    "data": {
+      "en": {
+        "description": "",
+        "grant": "",
+        "name": "",
+        "certificate": ""
+      }
+    }
+  },
+  {
+    "issue_year":"2023",
     "file_name": "certificate_2_am.jpg",
     "language": "am",
     "color": "deepskyblue",
@@ -59,38 +107,6 @@
         "description": "Տրվել է 'coursera'֊ի կողմից",
         "grant": "Տրվում է Վահան Երանոսյանին ար այն որ նա հաջողությամբ ավարտել է 'մաթեմատիկա տվյակագիտության համար' դասընթացը",
         "name": "'Մաթեմատիկա տվյալագիտության համար' դասընթաց",
-        "certificate": "Ավարտական վկայական"
-      }
-    }
-  },
-  {
-    "issue_year":"2023",
-    "file_name": "certificate_5_en.jpg",
-    "language": "en",
-    "color": "white",
-    "id": "5",
-    "orientation": "landscape",
-    "data": {
-      "am": {
-        "description": "Տրվել է 'coursera'֊ի կողմից",
-        "grant": "Տրվում է Վահան Երանոսյանին ար այն որ նա հաջողությամբ ավարտել է 'Խորը ուսուցում' դասընթացը",
-        "name": "'Խորը ուսուցում' դասընթաց",
-        "certificate": "Ավարտական վկայական"
-      }
-    }
-  },
-  {
-    "issue_year":"2023",
-    "file_name": "certificate_6_en.jpg",
-    "language": "en",
-    "color": "white",
-    "id": "6",
-    "orientation": "landscape",
-    "data": {
-      "am": {
-        "description": "Տրվել է 'coursera'֊ի կողմից",
-        "grant": "Տրվում է Վահան Երանոսյանին ար այն որ նա հաջողությամբ ավարտել է 'IBM Տվյալագիտություն' դասընթացը",
-        "name": "'IBM Տվյալագիտություն' դասընթաց",
         "certificate": "Ավարտական վկայական"
       }
     }
@@ -220,6 +236,38 @@
         "grant": "Is granted to Vahan Yeranosyan for showing high results in physics olympiad",
         "name": "Named after Armen Oskanian in-school olympiad",
         "certificate": "I-Class Diploma"
+      }
+    }
+  },
+  {
+    "issue_year":"2023",
+    "file_name": "certificate_5_en.jpg",
+    "language": "en",
+    "color": "white",
+    "id": "5",
+    "orientation": "landscape",
+    "data": {
+      "am": {
+        "description": "Տրվել է 'coursera'֊ի կողմից",
+        "grant": "Տրվում է Վահան Երանոսյանին ար այն որ նա հաջողությամբ ավարտել է 'Խորը ուսուցում' դասընթացը",
+        "name": "'Խորը ուսուցում' դասընթաց",
+        "certificate": "Ավարտական վկայական"
+      }
+    }
+  },
+  {
+    "issue_year":"2023",
+    "file_name": "certificate_6_en.jpg",
+    "language": "en",
+    "color": "white",
+    "id": "6",
+    "orientation": "landscape",
+    "data": {
+      "am": {
+        "description": "Տրվել է 'coursera'֊ի կողմից",
+        "grant": "Տրվում է Վահան Երանոսյանին ար այն որ նա հաջողությամբ ավարտել է 'IBM Տվյալագիտություն' դասընթացը",
+        "name": "'IBM Տվյալագիտություն' դասընթաց",
+        "certificate": "Ավարտական վկայական"
       }
     }
   },

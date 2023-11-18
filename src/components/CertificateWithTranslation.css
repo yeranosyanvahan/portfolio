@@ -6,6 +6,15 @@
   overflow: hidden; /* Prevent overall overflow */
 }
 
+.certificate-container-outer.portrait{
+  max-width: 100%;
+  height: 100%;
+}
+.certificate-container-outer.landscape{
+  max-height: 100%;
+  width: 100%;
+}
+
 .certificate-container.portrait {
   flex-direction: row;
 }
