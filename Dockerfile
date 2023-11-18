@@ -5,8 +5,7 @@ COPY package*.json ./
 RUN npm install
 COPY . .
 RUN npm run build
-RUN ls -lah /app
-RUN echo "What is this"
+
 # Production stage
 FROM nginx:stable-alpine as production-stage
 COPY --from=build-stage /app/public /usr/share/nginx/html
