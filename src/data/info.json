@@ -289,6 +289,38 @@
   },
   {
     "issue_year":"2023",
+    "file_name": "certificate_24_am.jpg",
+    "language": "am",
+    "color": "yellow",
+    "id": "24",
+    "orientation": "portrait",
+    "data": {
+      "en": {
+        "description": "Granted by 'Qantum' College",
+        "grant": "Is granted to Vahan Yeranosyan for taking third place in chess completition",
+        "name": "'Ughetsir' military camp chess competition",
+        "certificate": "IIIrd place diploma"
+      }
+    }
+  },
+  {
+    "issue_year":"2023",
+    "file_name": "certificate_23_am.jpg",
+    "language": "am",
+    "color": "pink",
+    "id": "23",
+    "orientation": "portrait",
+    "data": {
+      "en": {
+        "description": "Granted by 'Qantum' College",
+        "grant": "Is granted to Vahan Yeranosyan for taking first place in checker completition",
+        "name": "'Ughetsir' military camp checker competition",
+        "certificate": "I-st place diploma"
+      }
+    }
+  },
+  {
+    "issue_year":"2023",
     "file_name": "certificate_16_am.jpg",
     "language": "am",
     "color": "yellow",
@@ -396,38 +428,6 @@
         "grant": "",
         "name": "International physico-mathematical Olympiad ",
         "certificate": "Winner Certificate"
-      }
-    }
-  },
-  {
-    "issue_year":"2023",
-    "file_name": "certificate_23_am.jpg",
-    "language": "am",
-    "color": "pink",
-    "id": "23",
-    "orientation": "portrait",
-    "data": {
-      "en": {
-        "description": "Granted by 'Qantum' College",
-        "grant": "Is granted to Vahan Yeranosyan for taking first place in checker completition",
-        "name": "'Ughetsir' military camp checker competition",
-        "certificate": "I-st place diploma"
-      }
-    }
-  },
-  {
-    "issue_year":"2023",
-    "file_name": "certificate_24_am.jpg",
-    "language": "am",
-    "color": "yellow",
-    "id": "24",
-    "orientation": "portrait",
-    "data": {
-      "en": {
-        "description": "Granted by 'Qantum' College",
-        "grant": "Is granted to Vahan Yeranosyan for taking third place in chess completition",
-        "name": "'Ughetsir' military camp chess competition",
-        "certificate": "IIIrd place diploma"
       }
     }
   },
