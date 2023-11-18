@@ -51,7 +51,7 @@ export default class Projects extends Component {
           <p>In the classic game of Minesweeper, players often encounter scenarios where intuitive decisions are insufficient, necessitating calculated guesses to prevail. Recognizing this, I embarked on a project to eliminate guesswork through the development of an AI-driven Minesweeper visualization tool. This AI leverages probabilistic analysis to identify the likelihood of bombs in each tile, guiding decisions with precision.</p>
           <p>The visualization showcased here represents the AI's analytical prowess. Through a color-coded map, it reveals the bomb probability for each square - green indicating low risk and red signaling high danger. This tool is the epitome of a Perfect Minesweeper AI, transforming each move from a guess to an informed decision.</p>
           <div>
-          <img style={{"maxWidth":"100%","margin":"auto","display":"block"}} src="images/Minesweeper/Minesweeper.png" alt="Perfect Minesweeper AI"/>
+          <img style={{"maxWidth":"100%","margin":"auto","display":"block"}} src="/images/Minesweeper/Minesweeper.png" alt="Perfect Minesweeper AI"/>
           </div>
           <p>In the examples above, you witness scenarios where guessing is usually unavoidable. The AI's probability map provides a strategic advantage, enabling the player to make the most informed choice possible. This project not only highlights my technical capabilities but also my dedication to enhancing user experience in gaming through intelligent design. </p>
       </div>
@@ -61,32 +61,32 @@ export default class Projects extends Component {
           <div className="gallery">
 
             <div className="text">Exorcise the demon from a planet</div>
-            <img src="images/Fractals/blue/2_small.png" onClick = {() => {this.openLightbox(3)}}/>
-            <img src="images/Fractals/blue/3_small.png" onClick = {() => {this.openLightbox(4)}}/>
-            <img src="images/Fractals/blue/4_small.png" onClick = {() => {this.openLightbox(5)}}/>
+            <img src="/images/Fractals/blue/2_small.png" onClick = {() => {this.openLightbox(3)}}/>
+            <img src="/images/Fractals/blue/3_small.png" onClick = {() => {this.openLightbox(4)}}/>
+            <img src="/images/Fractals/blue/4_small.png" onClick = {() => {this.openLightbox(5)}}/>
 
             <div className="text">Spaceship Fractals</div>
-            <img src="images/Fractals/yellow/1_small.png" onClick = {() => {this.openLightbox(6)}}/>
-            <img src="images/Fractals/yellow/2_small.png" onClick = {() => {this.openLightbox(7)}}/>
-            <img src="images/Fractals/yellow/3_small.png" onClick = {() => {this.openLightbox(8)}}/>
+            <img src="/images/Fractals/yellow/1_small.png" onClick = {() => {this.openLightbox(6)}}/>
+            <img src="/images/Fractals/yellow/2_small.png" onClick = {() => {this.openLightbox(7)}}/>
+            <img src="/images/Fractals/yellow/3_small.png" onClick = {() => {this.openLightbox(8)}}/>
 
             <div className="text">Green Fractals</div>
-            <img src="images/Fractals/green/1_small.png" onClick = {() => {this.openLightbox(9)}}/>
-            <img src="images/Fractals/green/2_small.png" onClick = {() => {this.openLightbox(10)}}/>
-            <img src="images/Fractals/green/3_small.png" onClick = {() => {this.openLightbox(11)}}/>
-            <img src="images/Fractals/green/4_small.png" onClick = {() => {this.openLightbox(12)}}/>
-            <img src="images/Fractals/green/5_small.png" onClick = {() => {this.openLightbox(13)}}/>
-            <img src="images/Fractals/green/6_small.png" onClick = {() => {this.openLightbox(14)}}/>
+            <img src="/images/Fractals/green/1_small.png" onClick = {() => {this.openLightbox(9)}}/>
+            <img src="/images/Fractals/green/2_small.png" onClick = {() => {this.openLightbox(10)}}/>
+            <img src="/images/Fractals/green/3_small.png" onClick = {() => {this.openLightbox(11)}}/>
+            <img src="/images/Fractals/green/4_small.png" onClick = {() => {this.openLightbox(12)}}/>
+            <img src="/images/Fractals/green/5_small.png" onClick = {() => {this.openLightbox(13)}}/>
+            <img src="/images/Fractals/green/6_small.png" onClick = {() => {this.openLightbox(14)}}/>
 
             <div className="text">Black and White Fractals</div>
-            <img src="images/Fractals/black_white/1_small.png" onClick = {() => {this.openLightbox(15)}}/>
-            <img src="images/Fractals/black_white/2_small.png" onClick = {() => {this.openLightbox(16)}}/>
-            <img src="images/Fractals/black_white/3_small.png" onClick = {() => {this.openLightbox(17)}}/>
+            <img src="/images/Fractals/black_white/1_small.png" onClick = {() => {this.openLightbox(15)}}/>
+            <img src="/images/Fractals/black_white/2_small.png" onClick = {() => {this.openLightbox(16)}}/>
+            <img src="/images/Fractals/black_white/3_small.png" onClick = {() => {this.openLightbox(17)}}/>
 
             <div className="text">Other Fractals</div>
-            <img src="images/Fractals/other/1_small.png" onClick = {() => {this.openLightbox(18)}}/>
-            <img src="images/Fractals/other/2_small.png" onClick = {() => {this.openLightbox(19)}}/>
-            <img src="images/Fractals/other/3_small.png" onClick = {() => {this.openLightbox(20)}}/>
+            <img src="/images/Fractals/other/1_small.png" onClick = {() => {this.openLightbox(18)}}/>
+            <img src="/images/Fractals/other/2_small.png" onClick = {() => {this.openLightbox(19)}}/>
+            <img src="/images/Fractals/other/3_small.png" onClick = {() => {this.openLightbox(20)}}/>
 
           </div>          
           <Lightbox
