@@ -18,12 +18,12 @@
   {
     "issue_year":"2023",
     "file_name": "certificate_34_en.png",
-    "language": "am",
+    "language": "en",
     "color": "white",
     "id": "37",
     "orientation": "landscape",
     "data": {
-      "en": {
+      "am": {
         "description": "",
         "grant": "",
         "name": "",
@@ -34,12 +34,12 @@
   {
     "issue_year":"2023",
     "file_name": "certificate_35_en.png",
-    "language": "am",
+    "language": "en",
     "color": "white",
     "id": "35",
     "orientation": "landscape",
     "data": {
-      "en": {
+      "am": {
         "description": "",
         "grant": "",
         "name": "",
@@ -81,22 +81,6 @@
   },
   {
     "issue_year":"2023",
-    "file_name": "certificate_2_am.jpg",
-    "language": "am",
-    "color": "deepskyblue",
-    "id": "2",
-    "orientation": "landscape",
-    "data": {
-      "en": {
-        "description": "Awarded by 'Ayb' school",
-        "grant": "Is granted to Vahan Yeranosyan for displaying the best results in Math competition",
-        "name": "'Kangaroo' international Math competition",
-        "certificate": "Certificate"
-      }
-    }
-  },
-  {
-    "issue_year":"2023",
     "file_name": "certificate_5_en.jpg",
     "language": "en",
     "color": "white",
@@ -129,17 +113,65 @@
   },
   {
     "issue_year":"2023",
-    "file_name": "certificate_3_am.jpg",
+    "file_name": "certificate_21_am.jpg",
     "language": "am",
-    "color": "chocolate",
-    "id": "3",
-    "orientation": "landscape",
+    "color": "white",
+    "id": "21",
+    "orientation": "portrait",
     "data": {
       "en": {
-        "description": "Granted by Ministry of Education and Science of Armenia",
-        "grant": "Is granted to Vahan Yeranosyan for displaying high results in natural sciences",
-        "name": "Pan-Armenian olympiad",
-        "certificate": "Certificate"
+        "description": "Granted by Moscow Engineering Physics Institute ",
+        "grant": "Vahan Yeranosyan is a Winner in a final round of physico-mathemetic olympiad of schoolchildren 'Rosatom'  ",
+        "name": "physicо-mathematics branch Olympiad of schoolchildren 'Rosatom' ",
+        "certificate": "Winner Certificate"
+      }
+    }
+  },
+  {
+    "issue_year":"2023",
+    "file_name": "certificate_22_am.jpg",
+    "language": "am",
+    "color": "white",
+    "id": "22",
+    "orientation": "portrait",
+    "data": {
+      "en": {
+        "description": "Granted by Moscow Engineering Physics Institute ",
+        "grant": "",
+        "name": "International physico-mathematical Olympiad ",
+        "certificate": "Winner Certificate"
+      }
+    }
+  },
+  {
+    "issue_year":"2023",
+    "file_name": "certificate_32_am.jpg",
+    "language": "am",
+    "color": "white",
+    "id": "32",
+    "orientation": "portrait",
+    "data": {
+      "en": {
+        "description": "Granted by Moscow Engineering Physics Institute ",
+        "grant": "Vahan Yeranosyan is a second-class prize-winner in a final round of physico-mathemetic olympiad of schoolchildren 'Rosatom'  ",
+        "name": "physicо-mathematics branch Olympiad of schoolchildren 'Rosatom' ",
+        "certificate": "Winner Certificate"
+      }
+    }
+  },
+  {
+    "issue_year":"2023",
+    "file_name": "certificate_33_am.jpg",
+    "language": "am",
+    "color": "white",
+    "id": "33",
+    "orientation": "portrait",
+    "data": {
+      "en": {
+        "description": "Granted by Moscow Engineering Physics Institute ",
+        "grant": "Vahan Yeranosyan is a Winner in a final round of physico-mathemetic olympiad of schoolchildren 'Rosatom'  ",
+        "name": "physicо-mathematics branch Olympiad of schoolchildren 'Rosatom' ",
+        "certificate": "Winner Certificate"
       }
     }
   },
@@ -204,6 +236,38 @@
         "grant": "Is granted to Vahan Yeranosyan for showing high results in the final stage of physics olympiad",
         "name": "Republic olympiad of Armenia in Physics",
         "certificate": "III-Class Diploma"
+      }
+    }
+  },
+  {
+    "issue_year":"2023",
+    "file_name": "certificate_2_am.jpg",
+    "language": "am",
+    "color": "deepskyblue",
+    "id": "2",
+    "orientation": "landscape",
+    "data": {
+      "en": {
+        "description": "Awarded by 'Ayb' school",
+        "grant": "Is granted to Vahan Yeranosyan for displaying the best results in Math competition",
+        "name": "'Kangaroo' international Math competition",
+        "certificate": "Certificate"
+      }
+    }
+  },
+  {
+    "issue_year":"2023",
+    "file_name": "certificate_3_am.jpg",
+    "language": "am",
+    "color": "chocolate",
+    "id": "3",
+    "orientation": "landscape",
+    "data": {
+      "en": {
+        "description": "Granted by Ministry of Education and Science of Armenia",
+        "grant": "Is granted to Vahan Yeranosyan for displaying high results in natural sciences",
+        "name": "Pan-Armenian olympiad",
+        "certificate": "Certificate"
       }
     }
   },
@@ -289,22 +353,6 @@
   },
   {
     "issue_year":"2023",
-    "file_name": "certificate_24_am.jpg",
-    "language": "am",
-    "color": "yellow",
-    "id": "24",
-    "orientation": "portrait",
-    "data": {
-      "en": {
-        "description": "Granted by 'Qantum' College",
-        "grant": "Is granted to Vahan Yeranosyan for taking third place in chess completition",
-        "name": "'Ughetsir' military camp chess competition",
-        "certificate": "IIIrd place diploma"
-      }
-    }
-  },
-  {
-    "issue_year":"2023",
     "file_name": "certificate_23_am.jpg",
     "language": "am",
     "color": "pink",
@@ -316,6 +364,22 @@
         "grant": "Is granted to Vahan Yeranosyan for taking first place in checker completition",
         "name": "'Ughetsir' military camp checker competition",
         "certificate": "I-st place diploma"
+      }
+    }
+  },
+  {
+    "issue_year":"2023",
+    "file_name": "certificate_24_am.jpg",
+    "language": "am",
+    "color": "yellow",
+    "id": "24",
+    "orientation": "portrait",
+    "data": {
+      "en": {
+        "description": "Granted by 'Qantum' College",
+        "grant": "Is granted to Vahan Yeranosyan for taking third place in chess completition",
+        "name": "'Ughetsir' military camp chess competition",
+        "certificate": "IIIrd place diploma"
       }
     }
   },
@@ -401,33 +465,33 @@
   },
   {
     "issue_year":"2023",
-    "file_name": "certificate_21_am.jpg",
+    "file_name": "certificate_30_am.jpg",
     "language": "am",
-    "color": "white",
-    "id": "21",
+    "color": "cyan",
+    "id": "30",
     "orientation": "portrait",
     "data": {
       "en": {
-        "description": "Granted by Moscow Engineering Physics Institute ",
-        "grant": "Vahan Yeranosyan is a Winner in a final round of physico-mathemetic olympiad of schoolchildren 'Rosatom'  ",
-        "name": "physicо-mathematics branch Olympiad of schoolchildren 'Rosatom' ",
-        "certificate": "Winner Certificate"
+        "description": "Granted by 'Quantum' College",
+        "grant": "Is granted to Vahan Yeranosyan for showing high results in Physics olympiad",
+        "name": "Named after Armen Oskanian in-school olympiad",
+        "certificate": "II-Class Diploma"
       }
     }
   },
   {
     "issue_year":"2023",
-    "file_name": "certificate_22_am.jpg",
+    "file_name": "certificate_31_am.jpg",
     "language": "am",
-    "color": "white",
-    "id": "22",
+    "color": "cyan",
+    "id": "31",
     "orientation": "portrait",
     "data": {
       "en": {
-        "description": "Granted by Moscow Engineering Physics Institute ",
-        "grant": "",
-        "name": "International physico-mathematical Olympiad ",
-        "certificate": "Winner Certificate"
+        "description": "Granted by 'Quantum' College",
+        "grant": "Is granted to Vahan Yeranosyan for showing high results in Math olympiad",
+        "name": "Named after Armen Oskanian in-school olympiad",
+        "certificate": "III-Class Diploma"
       }
     }
   },
@@ -440,7 +504,7 @@
     "orientation": "portrait",
     "data": {
       "en": {
-        "description": "Granted by 'Photon' college",
+        "description": "Granted by 'Photon' college fff",
         "grant": "Is granted to Vahan Yeranosyan for displaying exellent results in Physics olympiad",
         "name": "Olympiad dedicated to the memory of V, Barseghian",
         "certificate": "I-st Class Diploma"
@@ -481,22 +545,6 @@
   },
   {
     "issue_year":"2023",
-    "file_name": "certificate_28_am.jpg",
-    "language": "am",
-    "color": "orange",
-    "id": "28",
-    "orientation": "portrait",
-    "data": {
-      "en": {
-        "description": "Granted by Yerevan Municipality",
-        "grant": "Is granted to Vahan Yeranosyan based on the results from Astronomy olympiad ",
-        "name": "'Yerevan 2800' School subject Olympiad-Competition",
-        "certificate": "II-Class diploma"
-      }
-    }
-  },
-  {
-    "issue_year":"2023",
     "file_name": "certificate_29_am.jpg",
     "language": "am",
     "color": "orange",
@@ -513,65 +561,17 @@
   },
   {
     "issue_year":"2023",
-    "file_name": "certificate_30_am.jpg",
+    "file_name": "certificate_28_am.jpg",
     "language": "am",
-    "color": "cyan",
-    "id": "30",
+    "color": "orange",
+    "id": "28",
     "orientation": "portrait",
     "data": {
       "en": {
-        "description": "Granted by 'Quantum' College",
-        "grant": "Is granted to Vahan Yeranosyan for showing high results in Physics olympiad",
-        "name": "Named after Armen Oskanian in-school olympiad",
-        "certificate": "II-Class Diploma"
-      }
-    }
-  },
-  {
-    "issue_year":"2023",
-    "file_name": "certificate_31_am.jpg",
-    "language": "am",
-    "color": "cyan",
-    "id": "31",
-    "orientation": "portrait",
-    "data": {
-      "en": {
-        "description": "Granted by 'Quantum' College",
-        "grant": "Is granted to Vahan Yeranosyan for showing high results in Math olympiad",
-        "name": "Named after Armen Oskanian in-school olympiad",
-        "certificate": "III-Class Diploma"
-      }
-    }
-  },
-  {
-    "issue_year":"2023",
-    "file_name": "certificate_32_am.jpg",
-    "language": "am",
-    "color": "white",
-    "id": "32",
-    "orientation": "portrait",
-    "data": {
-      "en": {
-        "description": "Granted by Moscow Engineering Physics Institute ",
-        "grant": "Vahan Yeranosyan is a second-class prize-winner in a final round of physico-mathemetic olympiad of schoolchildren 'Rosatom'  ",
-        "name": "physicо-mathematics branch Olympiad of schoolchildren 'Rosatom' ",
-        "certificate": "Winner Certificate"
-      }
-    }
-  },
-  {
-    "issue_year":"2023",
-    "file_name": "certificate_33_am.jpg",
-    "language": "am",
-    "color": "white",
-    "id": "33",
-    "orientation": "portrait",
-    "data": {
-      "en": {
-        "description": "Granted by Moscow Engineering Physics Institute ",
-        "grant": "Vahan Yeranosyan is a Winner in a final round of physico-mathemetic olympiad of schoolchildren 'Rosatom'  ",
-        "name": "physicо-mathematics branch Olympiad of schoolchildren 'Rosatom' ",
-        "certificate": "Winner Certificate"
+        "description": "Granted by Yerevan Municipality",
+        "grant": "Is granted to Vahan Yeranosyan based on the results from Astronomy olympiad ",
+        "name": "'Yerevan 2800' School subject Olympiad-Competition",
+        "certificate": "II-Class diploma"
       }
     }
   }
