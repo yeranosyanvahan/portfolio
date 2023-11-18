@@ -19,23 +19,29 @@ import "yet-another-react-lightbox/styles.css";
 const photos = certinfo.map(cert => ({
   ...cert,
   src: `/certificates/${cert.file_name}`,
-  width: cert['orientation'] === 'landscape' ? 1287 : 1000,
+  width:  cert['orientation'] === 'landscape' ? 1287 : 1000,
   height: cert['orientation'] === 'landscape' ? 1000 : 1462,
   srcSet: [
       {
           src: `/certificates/${cert.file_name}`,
-          width: cert['orientation'] === 'landscape' ? 1287 : 1000,
+          width:  cert['orientation'] === 'landscape' ? 1287 : 1000,
           height: cert['orientation'] === 'landscape' ? 1000 : 1462
       },
       {
           src: `/certificates/small_${cert.file_name}`,
-          width: cert['orientation'] === 'landscape' ? 500 : 389,
-          height: cert['orientation'] === 'landscape' ? 389 : 500
+          width:  cert['orientation'] === 'landscape' ? 500 : 341,
+          height: cert['orientation'] === 'landscape' ? 388 : 500
       }
   ]
 }));
 
 
+const thumbnail = certinfo.map(cert => ({
+  ...cert,
+  src: `/certificates/small_${cert.file_name}`,
+  width:  cert['orientation'] === 'landscape' ? 1287 : 1000,
+  height: cert['orientation'] === 'landscape' ? 1000 : 1462,
+}));
 
 export default class Awards extends Component {
     constructor(props) {
@@ -51,7 +57,7 @@ export default class Awards extends Component {
 
      
         return <Layout color="#c53030">
-         <PhotoAlbum layout="rows" photos={photos} onClick={({ index }) => {this.setState({ isOpen: true, photoIndex:index })}} />
+         <PhotoAlbum layout="rows" photos={thumbnail} onClick={({ index }) => {this.setState({ isOpen: true, photoIndex:index })}} />
          <Lightbox
         slides={photos}
         open={isOpen}
